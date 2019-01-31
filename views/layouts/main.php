@@ -47,7 +47,7 @@ AppAsset::register($this);
             ['label' => 'Login', 'url' => ['/site/login']]
             ) :
                 (
-                '<li>'.Html::a('Control Panel', ['/admin/index'], ['class' => 'btn btn-link']).'</li>'.
+                '<li>'.Html::a('Control Panel', ['/admin/image/index'], ['class' => 'btn btn-link']).'</li>'.
 //                ['label' => 'AdminPanel', 'url' => ['/admin/index']],
 //
                 '<li>'

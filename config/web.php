@@ -55,7 +55,7 @@ $config = [
 
     'modules' => [
         'admin' => [
-            'class' => 'app\modules\AdminModule',
+            'class' => 'app\modules\admin\AdminModule',
         ],
     ],
 

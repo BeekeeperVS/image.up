@@ -9,12 +9,14 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
     public $password;
     public $authKey;
     public $accessToken;
+    public $admin;
 
     private static $users = [
         '100' => [
             'id' => '100',
             'username' => 'admin',
             'password' => 'admin',
+            'admin' => 1,
             'authKey' => 'test100key',
             'accessToken' => '100-token',
         ],
@@ -22,6 +24,7 @@ class User extends \yii\base\BaseObject implements \yii\web\IdentityInterface
             'id' => '101',
             'username' => 'demo',
             'password' => 'demo',
+            'admin' => 0,
             'authKey' => 'test101key',
             'accessToken' => '101-token',
         ],
